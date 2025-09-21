@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/dbConnect';
-import OTP from '@/models/OTP';
+import OTP from '@/models/Otp';
 
 export async function POST(request) {
   await dbConnect();

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/dbConnect';
 import User from '@/models/User';
-import OTP from '@/models/OTP';
+import OTP from '@/models/Otp';
 import nodemailer from 'nodemailer';
 import { customAlphabet } from 'nanoid';
 

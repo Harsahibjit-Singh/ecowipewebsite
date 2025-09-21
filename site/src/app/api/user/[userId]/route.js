@@ -1,3 +1,5 @@
+
+// /user/[userId]/route.js
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/dbConnect';
 import User from '@/models/User';
