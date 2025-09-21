@@ -83,7 +83,6 @@ export default async function CertificateDetails({ params: { certificateId } }) 
               <div className="mt-6 pt-4 border-t border-white/10">
                 <h3 className="text-lg font-semibold text-orange-400 mb-2">Issued To:</h3>
                 <div className="space-y-1 text-gray-200">
-                    <p><strong>Name:</strong> {certificateData.user.name || 'N/A'}</p>
                     <p><strong>Email:</strong> {certificateData.user.email || 'N/A'}</p>
                 </div>
               </div>
